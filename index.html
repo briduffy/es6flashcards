@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS Flashcards</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="./styles.css"/>
+  </head>
+
+  <body>
+    <div class="container">
+      <h2 class="center">ES6 Flashcards</h2>
+        <form id="user-form">
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="userquestion" type="text" class="validate">
+                  <label class="active" for="userquestion">Front of card...</label>
+                </div>
+                <div class="input-field col s12">
+                  <input id="useranswer" type="text" class="validate">
+                  <label class="active" for="useranswer">...back of card.</label>
+                </div>
+                  <button class="btn form-submit col s12">ADD CARD.</button>
+              </div>
+            </form>
+          </div>
+        </form>
+      <div id="root"></div>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
